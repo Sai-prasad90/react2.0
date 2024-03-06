@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Form from './form';
+import Lifecycle from './components/LifeCycle2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* <Form/> */}
+      <Lifecycle/>
+
+
+      {/* <header className="App-header"> */}
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,7 +23,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
